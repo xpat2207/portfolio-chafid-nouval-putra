@@ -1,0 +1,23 @@
+@media (max-width: 760px) {
+	.cursor, .grain { display: none; }
+	.site-header { padding: 24px 7vw; }
+	.nav-toggle { display: block; }
+	.nav-links { background: var(--paper); border: 1px solid var(--ink); display: none; flex-direction: column; gap: 20px; padding: 25px; position: absolute; right: 7vw; top: 67px; width: 180px; }
+	.nav-links.open { display: flex; }
+	.page { padding: 125px 7vw 65px; }
+	.home { display: block; padding-top: 115px; }
+	h1 { font-size: clamp(4rem, 19vw, 7rem); }
+	.home-photo { margin: 65px auto 0; width: min(58vw, 290px); }
+	.scroll-note { display: none; }
+	.section-heading { display: block; margin-bottom: 40px; }
+	.section-number { display: block; margin-top: 15px; }
+	.about-grid, .contact-grid { display: block; }
+	.about-copy { margin-top: 40px; }
+	.work-grid { display: block; }
+	.work-card, .work-card:nth-child(2), .work-card:nth-child(4) { margin: 0 0 18px; }
+	.contact-links { grid-template-columns: 1fr; }
+	.contact-link:nth-child(even), .contact-link:nth-child(odd) { margin: 0; padding-left: 0; }
+	.contact-link:nth-child(even):hover { padding-left: 10px; }
+	form { margin-top: 65px; }
+	footer { display: block; line-height: 2; }
+}
